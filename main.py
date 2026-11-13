@@ -1,10 +1,11 @@
 import os
 
-JOKE = (
+SETUP = (
     "My AI coding agent has a million-token context window, read the entire "
     "codebase twice, and still asked me where the file it just created went - "
-    "I didn't hire help, I adopted a second me."
 )
+PUNCHLINE = "I didn't hire help, I adopted a second me."
+JOKE = SETUP + PUNCHLINE
 
 
 def main() -> None:
